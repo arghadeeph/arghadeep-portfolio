@@ -1,0 +1,14 @@
+# Email Configuration
+EMAIL_USER=arghadeeph@gmail.com
+EMAIL_PASS=your-16-character-gmail-app-password
+
+# Server Configuration
+PORT=3000
+NODE_ENV=development
+
+# Optional: Add recipient email if different from sender
+EMAIL_RECIPIENT=arghadeeph@gmail.com
+
+# Email Settings
+EMAIL_SERVICE=gmail
+EMAIL_FROM_NAME="Arghadeep Halder Portfolio"
