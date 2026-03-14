@@ -90,7 +90,7 @@ build();loop();
 document.addEventListener('visibilitychange',function(){if(document.hidden)cancelAnimationFrame(animId);else loop();});
 
 /* TYPING */
-var phrases=['Laravel Developer','CodeIgniter Expert','Backend Architect','API Engineer','SaaS Builder','AI Integrator'];
+var phrases=['Backend Architect','Laravel Developer','CodeIgniter Expert','API Engineer','SaaS Builder','AI Integrator'];
 var tel=document.getElementById('TT'),pi=0,ci=0,del=false;
 function type(){
   var p=phrases[pi];
